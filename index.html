@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <audio id="musica">
+            <source  src="./audio/Scorpions Always Somewhere.ogg"> 
+        </audio>
+
+        <div class="music-info">
+
+
+            <h4 id="title">Scorpions - Always Somewhere</h4>
+            <div id="progressed_bar" class="progressed-container">
+                <div id="progress" class="progress"></div>
+            </div>
+        </div>
+
+        <div class="img-container">
+            <img src="assets/Scorpions-wallpaper-3.jpg" alt="music-cover" id="cover" />
+        </div>
+
+        <div id="controles">
+
+            <img class="btn" onclick="retroceder()" src="./assets/retroceder.png" alt="back">
+
+            <img id="play" class="btn" onclick="play()" src="./assets/botao-play.png" alt="play">
+
+            <img class="btn" onclick="avancar()" src="./assets/avanco-rapido.png" alt="foward">
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
