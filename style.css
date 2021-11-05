@@ -134,6 +134,12 @@ background-color: black;
 border-radius: 10px;
 }
 
+.btn:hover{
+    background-color: rgb(214, 79, 0);
+    border-radius: 10px;
+    transform: translateY(-5px);
+}
+
 
 
 
